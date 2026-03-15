@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadeau{
+    padding: 0 0 2rem 0;
+    img{
+        border-radius: 15px 15px 0 0;
+    }
+}
+
+section {
+  background-color: white;
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0rem;
+  border-radius: 15px;
+
+      img{
+        width: 400px;
+    }
+}
+
+p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.active{
+    display: block;
+}
+
+.none{
+    display: none;
+}
+
+.espace {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ouvrir{
+    background-color: red;
+    border: solid 2px white;
+    color: white;
+    transition: transform 0.3s;
+}
+
+.jeter{
+    background-color: white;
+    border: solid 2px red;
+}
+
+.btn:hover {
+    background-color: brown;
+    border-color: brown;
+    color: white;
+}
+
+.last-chance{
+    background-color: white;
+    border: solid 2px red;
+    position: absolute;
+}
